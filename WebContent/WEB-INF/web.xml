@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>loginServlet</servlet-name>
+		<servlet-class>LoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>signupServlet</servlet-name>
+		<servlet-class>SignupServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>saveNotesServlet</servlet-name>
+		<servlet-class>SaveNotesServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewNotesServlet</servlet-name>
+		<servlet-class>ViewNotesServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>NotesUpdateAndDelete</servlet-name>
+		<servlet-class>NotesUpdateAndDelete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>loginServlet</servlet-name>
+		<url-pattern>/loginservlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>signupServlet</servlet-name>
+		<url-pattern>/signupservlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>saveNotesServlet</servlet-name>
+		<url-pattern>/savenotesservlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewNotesServlet</servlet-name>
+		<url-pattern>/ViewNotesServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>NotesUpdateAndDelete</servlet-name>
+		<url-pattern>/notesupdateanddelete</url-pattern>
+	</servlet-mapping>
+	<welcom-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcom-file-list>
+</web-app>
